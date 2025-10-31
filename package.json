@@ -1,7 +1,7 @@
 {
   "name": "majulancar",
   "version": "1.0.0",
-  "homepage": "https://USERNAME.github.io/majulancar",
+  "homepage": "https://alifdanisgoro-sys.github.io/majulancar",
   "private": true,
   "scripts": {
     "dev": "vite",

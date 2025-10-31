@@ -57,11 +57,7 @@ export default function Navbar() {
         : 'bg-transparent shadow-none'}`}
     >
       <div className="max-w-6xl mx-auto px-4 flex items-center justify-between h-16">
-      <img
-        src="/images/logo.png"
-        
-      />
-
+      <img src={`${import.meta.env.BASE_URL}images/logo.png`} alt="Logo" />
         <h1 className={`text-xl font-bold bg-blue-600 transition-colors duration-300 text-orange-500` }>
         
         </h1>

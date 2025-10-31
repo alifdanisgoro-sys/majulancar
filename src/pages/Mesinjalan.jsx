@@ -6,15 +6,15 @@ export default function Mesinjalan() {
 
   // 🔹 Data produk (bisa kamu tambah)
   const products2 = [
-    { id: 1, name: "Asphalt Sprayer Mini", category: "Mesin Jalan", image: "/images/Asphalt-Sprayer-Mini.jpg" },
-    { id: 2, name: "Asphalt Mixing Plant Mini", category: "Mesin Jalan", image: "/images/Mesin-Asphalt-Mixing-Plant-Mini.jpg" },
-    { id: 3, name: "Aspalt Finisher", category: "Mesin Jalan", image: "/images/Asphalt-Finisher.jpg" },
-    { id: 4, name: "Mesin Mobile Asphalt Mixing Plant ", category: "Mesin Jalan", image: "/images/Mobile-Asphalt-Mixing-Plant-AMP-2.jpg" },
-    { id: 5, name: "Aspal Sprayer ", category: "Mesin Jalan", image: "/images/Aspal-Sprayer.jpg" },
-    { id: 6, name: "Lampu Jalan PJU Solar Cell ", category: "Mesin Jalan", image: "/images/Lampu-Jalan-PJU-Solar-Cell-100W.jpg" },
-    { id: 7, name: "Vibratory Roller GTM", category: "Mesin Jalan", image: "/images/Vibratory-Roller-GTM-FURD-FYL-800.jpg" },
-    { id: 8, name: "Power Trowel GTM-S100H ", category: "Mesin Jalan", image: "/images/Power-Trowel-S100H.jpg" },
-    { id: 9, name: "Mesin-Marka-Jalan-Semi-Automatis-Compressor", category: "Mesin Jalan", image: "/images/Mesin-Marka-Jalan-Semi-Automatis-Compressor.jpg" },
+    { id: 1, name: "Asphalt Sprayer Mini", category: "Mesin Jalan", image: `${import.meta.env.BASE_URL}images/Asphalt-Sprayer-Mini.jpg`},
+    { id: 2, name: "Asphalt Mixing Plant Mini", category: "Mesin Jalan", image: `${import.meta.env.BASE_URL}images/Mesin-Asphalt-Mixing-Plant-Mini.jpg` },
+    { id: 3, name: "Aspalt Finisher", category: "Mesin Jalan", image: `${import.meta.env.BASE_URL}images/Asphalt-Finisher.jpg` },
+    { id: 4, name: "Mesin Mobile Asphalt Mixing Plant ", category: "Mesin Jalan", image: `${import.meta.env.BASE_URL}images/Mobile-Asphalt-Mixing-Plant-AMP-2.jpg` },
+    { id: 5, name: "Aspal Sprayer ", category: "Mesin Jalan", image: `${import.meta.env.BASE_URL}images/Aspal-Sprayer.jpg` },
+    { id: 6, name: "Lampu Jalan PJU Solar Cell ", category: "Mesin Jalan", image: `${import.meta.env.BASE_URL}images/Lampu-Jalan-PJU-Solar-Cell-100W.jpg` },
+    { id: 7, name: "Vibratory Roller GTM", category: "Mesin Jalan", image: `${import.meta.env.BASE_URL}images/Vibratory-Roller-GTM-FURD-FYL-800.jpg` },
+    { id: 8, name: "Power Trowel GTM-S100H ", category: "Mesin Jalan", image: `${import.meta.env.BASE_URL}images/Power-Trowel-S100H.jpg` },
+    { id: 9, name: "Mesin-Marka-Jalan-Semi-Automatis-Compressor", category: "Mesin Jalan", image: `${import.meta.env.BASE_URL}images/Mesin-Marka-Jalan-Semi-Automatis-Compressor.jpg` },
   ]
 
   // 🔹 State

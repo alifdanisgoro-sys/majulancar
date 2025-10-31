@@ -6,7 +6,7 @@ export default function Berita() {
       id: 1,
       title: "PT Maju Lancar Barokah Luncurkan Mesin Rotary Mixer Terbaru",
       date: "20 Oktober 2025",
-      image: "/images/Mesin-Rotary-Mixer.jpg",
+      image: `${import.meta.env.BASE_URL}images/Mesin-Rotary-Mixer.jpg`,
       excerpt:
         "PT Maju Lancar Barokah resmi meluncurkan produk unggulan mesin Rotary Mixer generasi terbaru dengan efisiensi pencampuran yang meningkat hingga 20%...",
     },
@@ -14,7 +14,7 @@ export default function Berita() {
       id: 2,
       title: "Inovasi Teknologi Mesin Pertanian Ramah Lingkungan",
       date: "10 September 2025",
-      image: "/images/Q1.jpg",
+      image: `${import.meta.env.BASE_URL}images/Q1.jpg`,
       excerpt:
         "Perusahaan kembali menghadirkan inovasi mesin pertanian yang ramah lingkungan dengan material stainless steel food-grade dan sistem hemat energi...",
     },
@@ -22,7 +22,7 @@ export default function Berita() {
       id: 3,
       title: "Kerjasama Strategis dengan BUMN dalam Produksi Mesin Konstruksi",
       date: "15 Agustus 2025",
-      image: "/images/Q2.jpg",
+      image: `${import.meta.env.BASE_URL}images/Q2.jpg`,
       excerpt:
         "PT Maju Lancar Barokah menjalin kemitraan strategis dengan salah satu BUMN untuk memperkuat produksi mesin konstruksi nasional...",
     },

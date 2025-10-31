@@ -6,15 +6,15 @@ export default function Mesinpertanian() {
 
   // 🔹 Data produk (bisa kamu tambah)
   const products = [
-    { id: 1, name: "Mesin Rotary Mixer", category: "Mesin Pertanian", image: "/images/Mesin-Rotary-Mixer.jpg" },
-    { id: 2, name: "Mesin Mixer Clay", category: "Mesin Pertanian", image: "/images/Mesin-Mixer-Clay.jpg" },
-    { id: 3, name: "Mesin Wood Chipper Plant", category: "Mesin Pertanian", image: "/images/Mesin-Hydrodan-Wood-Chipper.jpg" },
-    { id: 4, name: "Mesin Pengayak Getar", category: "Mesin Pertanian", image: "/images/Mesin-Pengayak-Tipe-Getar.jpg" },
-    { id: 5, name: "Mesin Hydroseeding", category: "Mesin Pertanian", image: "/images/Mesin-Hydroseeding-2.jpg" },
-    { id: 6, name: "Germinator Benih", category: "Mesin Pertanian", image: "/images/Germinator-Benih-atau-Seed-Germinator-2.jpg" },
-    { id: 7, name: "Mesin Pemeras Santan Kelapa", category: "Mesin Industri", image: "/images/Mesin-Pemeras-Santan-Kelapa-2.jpg" },
-    { id: 8, name: "Alat perebah sapi ", category: "Peternakan", image: "/images/Alat-Perebah-Sapi-Restraining-Box-2-300x225.jpg" },
-    { id: 9, name: "Kandang Jepit Otomatis ", category: "Peternakan", image: "/images/Kandang-Jepit-Otomatis-Restraining-Cage.jpg" },
+    { id: 1, name: "Mesin Rotary Mixer", category: "Mesin Pertanian", image: `${import.meta.env.BASE_URL}images/Mesin-Rotary-Mixer.jpg` },
+    { id: 2, name: "Mesin Mixer Clay", category: "Mesin Pertanian", image: `${import.meta.env.BASE_URL}images/Mesin-Mixer-Clay.jpg` },
+    { id: 3, name: "Mesin Wood Chipper Plant", category: "Mesin Pertanian", image: `${import.meta.env.BASE_URL}images/Mesin-Hydrodan-Wood-Chipper.jpg` },
+    { id: 4, name: "Mesin Pengayak Getar", category: "Mesin Pertanian", image: `${import.meta.env.BASE_URL}images/Mesin-Pengayak-Tipe-Getar.jpg` },
+    { id: 5, name: "Mesin Hydroseeding", category: "Mesin Pertanian", image: `${import.meta.env.BASE_URL}images/Mesin-Pengayak-Tipe-Getar.jpg` },
+    { id: 6, name: "Germinator Benih", category: "Mesin Pertanian", image: `${import.meta.env.BASE_URL}images/Germinator-Benih-atau-Seed-Germinator-2.jpg` },
+    { id: 7, name: "Mesin Pemeras Santan Kelapa", category: "Mesin Industri", image: `${import.meta.env.BASE_URL}images/Mesin-Pemeras-Santan-Kelapa-2.jpg`},
+    { id: 8, name: "Alat perebah sapi ", category: "Peternakan", image: `${import.meta.env.BASE_URL}images/Alat-Perebah-Sapi-Restraining-Box-2-300x225.jpg`},
+    { id: 9, name: "Kandang Jepit Otomatis ", category: "Peternakan", image: `${import.meta.env.BASE_URL}images/Kandang-Jepit-Otomatis-Restraining-Cage.jpg` },
   ]
 
   // 🔹 State

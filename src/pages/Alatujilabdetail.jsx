@@ -11,7 +11,7 @@ export default function Alatujilabdetail() {
       id: 1,
       name: "Soil Compaction Meter",
       category: "Alat Uji",
-      image: "/images/Soil-Compaction-Meter.jpg",
+      image: `${import.meta.env.BASE_URL}images/Soil-Compaction-Meter.jpg`,
       description: `
 Soil Compaction Tester atau Alat ukur kepadatan tanah brand DICKEY-john ini menggunakan tiang dan rod berbahan stainless steel. Tongkat sensor tersebut ditandai ukuran kedalaman dalam inchi : 3”, 6”, 9”, 12”, 15”, 18″.
 Soil Compaction Tester atau Alat Ukur Kepadatan Tanah merupakan alat ukur yang digunakan untuk menguji tingkat kepadatan lapisan tanah, untuk membantu didalam proyek bangunan, gedung, jembatan, jalan umum dan proyek konstruksi lainnya.
@@ -27,7 +27,7 @@ Instrumen ini dilengkapi dengan dua tip:
       id: 2,
       name: "UV VIS Spectrophotometer AE S60 2U",
       category: "Alat Uji",
-      image: "/images/UV-VIS-Spectrophotometer-AE-S60-2U.jpg",
+      image: `${import.meta.env.BASE_URL}images/UV-VIS-Spectrophotometer-AE-S60-2U.jpg`,
       description: `
 Instrumen ini adalah instrumen single beam, tujuan umum yang dirancang untuk memenuhi kebutuhan laboratorium konvensional. Instrumen ini ideal untuk berbagai aplikasi seperti Chemistry, Biochemistry, Enviromental Protection, Food and Beverage Labs, Water and Waste Water Labs, serta bidang lainnya dalam pengendalian kualitas dan penelitian.
 Instrumen ini dilengkapi dengan layar LCD matriks 128 x 64 titik untuk hasil fotometrik, operasi yang mudah, dan panjang gelombang 200nm hingga 1000 nm. Instrumen ini ideal untuk pengukuran dalam wilayah panjang gelombang terlihat dan ultraviolet dari spektrum elektromagnetik.
@@ -57,7 +57,7 @@ Weight : 11 kg
       id: 3,
       name: "Hydrometer Analysis Test Set",
       category: "Alat Uji",
-      image: "/images/Hydrometer-Analysis-Test-Set-2.jpg",
+      image: `${import.meta.env.BASE_URL}images/Hydrometer-Analysis-Test-Set-2.jpg`,
       description: `
 Hydrometer Analysis Test Set digunakan bersama dengan analisis saringan standar pada tanah berbutir halus dengan berbagai ukuran partikel untuk menghasilkan kurva gradasi yang lengkap. Ini juga digunakan untuk mengevaluasi sedimentasi atau halusnya tanah tertentu secara lebih akurat.
 

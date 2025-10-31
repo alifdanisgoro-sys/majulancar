@@ -5,19 +5,19 @@ export default function Galeri() {
     {
       id: 1,
       name: "Mesin Rotary Mixer",
-      image: "/images/Mesin-Rotary-Mixer.jpg",
+      image: `${import.meta.env.BASE_URL}images/Mesin-Rotary-Mixer.jpg`,
       description: "Mesin pencampur bahan pertanian dan industri dengan kapasitas besar dan sistem rotasi efisien.",
     },
     {
       id: 2,
       name: "Mesin Mixer Clay",
-      image: "/images/Mesin-Mixer-Clay.jpg",
+      image: `${import.meta.env.BASE_URL}images/Mesin-Mixer-Clay.jpg`,
       description: "Mesin pengaduk tanah liat dengan sistem double screw agitator untuk hasil homogen dan cepat.",
     },
     {
       id: 3,
       name: "Mesin Pengayak Getar",
-      image: "/images/Mesin-Pengayak-Tipe-Getar.jpg",
+      image: `${import.meta.env.BASE_URL}images/Mesin-Pengayak-Tipe-Getar.jpg`,
       description: "Mesin penyaring untuk memilah ukuran bahan seperti pupuk, pasir, dan tepung dengan sistem getar.",
     },
   ]

@@ -8,7 +8,7 @@ export default function GaleriDetail() {
   const galeriData = {
     1: {
       name: "Mesin Rotary Mixer",
-      image: "/images/Mesin-Rotary-Mixer.jpg",
+      image: `${import.meta.env.BASE_URL}images/Mesin-Rotary-Mixer.jpg`,
       description: `
 Mesin rotary mixer digunakan untuk mencampur bahan pertanian atau industri secara merata melalui rotasi drum. 
 Terbuat dari stainless steel 304, mesin ini higienis, tahan lama, dan mudah dioperasikan. 
@@ -25,7 +25,7 @@ Cocok untuk pakan ternak, pupuk, dan industri kimia.`,
     },
     2: {
       name: "Mesin Mixer Clay",
-      image: "/images/Mesin-Mixer-Clay.jpg",
+      image: `${import.meta.env.BASE_URL}images/Mesin-Mixer-Clay.jpg`,
       description: `
 Mesin mixer clay berfungsi mencampur tanah liat secara merata menggunakan sistem Double Screw Agitator.
 
@@ -39,7 +39,7 @@ Cocok untuk pabrik bata, keramik, dan industri berbasis tanah liat.`,
     },
     3: {
       name: "Mesin Pengayak Getar",
-      image: "/images/Mesin-Pengayak-Tipe-Getar.jpg",
+      image: `${import.meta.env.BASE_URL}images/Mesin-Pengayak-Tipe-Getar.jpg`,
       description: `
 Mesin pengayak tipe getar berfungsi memisahkan bahan berdasarkan ukuran.
 

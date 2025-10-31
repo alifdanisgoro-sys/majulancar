@@ -6,9 +6,9 @@ export default function Alatujilab() {
 
   // 🔹 Data produk (bisa kamu tambah)
   const products = [
-    { id: 1, name: "Soil Compaction Meter", category: "Alat Uji", image: "/images/Soil-Compaction-Meter.jpg" },
-    { id: 2, name: "UV VIS Spectrophotometer AE S60 2U", category: "Alat Uji", image: "/images/UV-VIS-Spectrophotometer-AE-S60-2U.jpg" },
-    { id: 3, name: "Hydrometer Analysis Test Set", category: "Alat Uji", image: "/images/Hydrometer-Analysis-Test-Set-2.jpg" },
+    { id: 1, name: "Soil Compaction Meter", category: "Alat Uji", image: `${import.meta.env.BASE_URL}images/Soil-Compaction-Meter.jpg` },
+    { id: 2, name: "UV VIS Spectrophotometer AE S60 2U", category: "Alat Uji", image: `${import.meta.env.BASE_URL}images/UV-VIS-Spectrophotometer-AE-S60-2U.jpg` },
+    { id: 3, name: "Hydrometer Analysis Test Set", category: "Alat Uji", image: `${import.meta.env.BASE_URL}images/Hydrometer-Analysis-Test-Set-2.jpg` },
   ]
 
   // 🔹 State

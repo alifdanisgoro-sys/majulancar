@@ -11,7 +11,7 @@ export default function Mesinjalandetail() {
       id: 1,
       name: "Asphalt Sprayer Mini",
       category: "Mesin Jalan",
-      image: "/images/Asphalt-Sprayer-Mini-2.jpg",
+      image: `${import.meta.env.BASE_URL}images/Asphalt-Sprayer-Mini.jpg`,
       description: `
 AMP adalah seperangkat peralatan mekanik & elektronik dimana agregat akan dipanaskan, dikeringkan dan dicampur dengan aspal yang nantinya menghasilkan campuran beraspal panas yang memenuhi persyaratan tertentu yang disebut hotmix atau laston, Asphalt Sprayer Mini adalah mesin yang difungsikan untuk mengolah aspal dan campurannya pada saat pekerjaan jalan dilakukan (proyek). Asphalt Sprayer Mini ini biasanya dipakai pada pekerjaan jalan yang sifatnya tidak besar atau proyek kecil karena disediakan dengan kapasitas kecil yaitu 700-100kg.
 Type GTM 1000 MIX
@@ -37,7 +37,7 @@ Spesifikasi :
       id: 2,
       name: "Mesin Asphal Mixing Plant Mini",
       category: "Mesin Jalan",
-      image: "/images/Mesin-Asphalt-Mixing-Plant-Mini.jpg",
+      image: `${import.meta.env.BASE_URL}images/Mesin-Asphalt-Mixing-Plant-Mini.jpg`,
       description: `
 Asphalt Mixing Plant (AMP) berfungsi untuk mengolah aspal dan campurannya dilokasi proyek, AMP merupakan seperangkat peralatan mekanik dan elektronik dimana agregat dipanaskan, dikeringkan dan dicampur dengan aspal untuk menghasilkan campuran beraspal panas yang memenuhi persyaratan tertentu yang disebut hotmix atau laston. Asphalt Mixing Plant Mini ini lebih efisien cara penggunaan dan dapat mengurangi pengeluaran biaya angkut material. Asphalt Mixing Plant Mini disediakan dengan kapasitas kecil yaitu 700 – 100kg. Jadi Asphalt Mixing Plant Mini biasanya dipergunakan untuk pekerjaan jalan yang sifatnya tidak besar (proyek kecil). AMP dapat terletak di lokasi yang permanen atau berpindah dari satu tempat ke tempat lain.
 Mesin Asphalt Mixing Plant Mini
@@ -62,7 +62,7 @@ Spesifikasi :
       id: 3,
       name: "Asphal Finisher",
       category: "Mesin Pertanian",
-      image: "/images/Asphalt-Finisher.jpg",
+      image: `${import.meta.env.BASE_URL}images/Asphalt-Finisher.jpg`,
       description: `
 Asphalt Finisher atau Asphalt Paver merupakan salah satu alat berat konstruksi yang berfungsi sebagai menghamparkan aspal (meletakan material aspal pada area yang telah direncanakan) serta memberikan pemadatan awal sebelum dipadatkan ulang dengan roller. Material aspal yang ditumpahkan di mulut alat, secara otomatis akan dibentuk dan diratakan sesuai dengan ketebalan dan lengkungan jalan yang diinginkan. Agar didapat permukaanyang rata, kekentalan (slump) aspal yang dipakai harus sesuai dengan karakteristik alat.
 Spesifikasi :
@@ -96,7 +96,7 @@ Spesifikasi :
       id: 4,
       name: "Mobile Asphalt Mixing Plant",
       category: "Mesin Jalan",
-      image: "/images/Mobile-Asphalt-Mixing-Plant-AMP-2.jpg",
+      image: `${import.meta.env.BASE_URL}images/Mobile-Asphalt-Mixing-Plant-AMP-2.jpg`,
       description: `
 Mesin Mobile Asphalt Mixing Plant digunakan untuk memproduksi campuran aspal panas yang digunakan dalam konstruksi jalan. Proses produksi di asphalt mixing plant melibatkan pencampuran agregat dengan aspal panas, yang kemudian dihasilkan dalam bentuk campuran yang siap untuk digunakan dalam pembangunan atau perbaikan jalan. Mesin ini biasanya terdiri dari berbagai komponen termasuk drum pengering untuk mengeringkan agregat, silo untuk penyimpanan bahan baku, sistem pengukuran dan pencampuran, serta sistem kontrol untuk mengatur suhu dan proporsi campuran secara tepat. Penggunaan Asphalt Mixing Plant memungkinkan produsen aspal untuk menciptakan campuran yang konsisten dan berkualitas tinggi sesuai dengan spesifikasi yang dibutuhkan dalam proyek konstruksi jalan.
 “Mobile Asphalt Mixing Plant (AMP) Lokal
@@ -161,7 +161,7 @@ KELENGKAPAN
       id: 5,
       name: "Aspal Sprayer",
       category: "Mesin Jalan",
-      image: "/images/Aspal-Sprayer.jpg",
+      image: `${import.meta.env.BASE_URL}images/Aspal-Sprayer.jpg`,
       description: `
 Kami memproduksi Aspal Sprayer atau mesin penyemprot aspal merupakan peralatan jalan yang digunakan untuk menyemprotkan aspal cair ke permukaan jalan hingga merata, yang nantinya aspal cair ini berguna sebagai lapisan pengikat atau prime coat agar mengikat material di bawahnya sehingga jalan menjadi kuat untuk dilalui beban berat.
 Untuk pemesanan bisa langsung menghubungi nomor yang tertera pada website resmi kami.
@@ -187,7 +187,7 @@ Spesifikasi :
       id: 6,
       name: "Lampu Jalan PJU Solar Cell 100W",
       category: "Mesin Jalan",
-      image: "/images/Lampu-Jalan-PJU-Solar-Cell-100W.jpg",
+      image: `${import.meta.env.BASE_URL}images/Lampu-Jalan-PJU-Solar-Cell-100W.jpg`,
       description: `
 Lampu Jalan PJU Solar Cell Two in One 100W berfungsi sebagai alat bantu penerangan yang menggunakan sistem solar cell sehingga menghemat pemakaian listrik. Lampu Jalan PJU Solar Cell 100W dilengkapi dengan Baterai sebagai tempat penyimpanan energi listrik yang mampu tahan 10-20 Hari.
 Cocok untuk penggunaan sebagai lampu jalan seperti :
@@ -216,7 +216,7 @@ Life Cycle : 2000 cycles
       id: 7,
       name: "Vibratory Roller GTM FURD FYL 800",
       category: "Mesin Jalan",
-      image: "/images/Vibratory-Roller-GTM-FURD-FYL-800.jpg",
+      image: `${import.meta.env.BASE_URL}images/Vibratory-Roller-GTM-FURD-FYL-800.jpg`,
       description: `
 Vibratory Roller GTM-FURD FYL-800 atau tandem roller berfungsi menggilas sampai memadatkan semua hasil timbunan tanah. Proses pemadatan tanah melewati beberapa cara pemampatan bahkan memakai metode getaran sehingga sangat baik diaplikasikan pada jenis tanah berpasir ataupun dengan kontur kerikil berpasir.
 Spesifikasi :
@@ -242,7 +242,7 @@ Spesifikasi :
       id: 8,
       name: "Power Trowel S100H",
       category: "Mesin Jalan",
-      image: "/images/Power-Trowel-S100H.jpg",
+      image: `${import.meta.env.BASE_URL}images/Power-Trowel-S100H.jpg`,
       description: `
 Power Trowel GTM-S100H adalah alat konstruksi yang berfungsi menghaluskan permukaan screed (beton) sebelum kering.
 Spesifikasi :
@@ -261,7 +261,7 @@ Spesifikasi :
       id: 9,
       name: "Mesin Marka Jalan Semi Automatis Compressor",
       category: "Mesin Jalan",
-      image: "/images/Mesin-Marka-Jalan-Semi-Automatis-Compressor.jpg",
+      image: `${import.meta.env.BASE_URL}images/Mesin-Marka-Jalan-Semi-Automatis-Compressor.jpg`,
       description: `
 Kami memproduksi berbagai perlengkapan mesin marka jalan dengan spesifikasi sesuai dengan standar. Mesin Marka Jalan Semi Otomatis Kompresor merupakan mesin yang digunakan oleh para kontraktor jalan pada saat pekerjaan pengecatan marka jalan dilakukan. Mesin Marka Jalan ini berfungsi untuk mengaplikasikan bahan cat thermoplastic dan glassbeads ke media jalan dengan bantuan pemanasan dari gas LPG dan diaplikasikan dengan mesin marka sehingga menghasilkan garis marka jalan non profil (standard) dengan ukuran garis 10,12,15,30 cm.
 TEKNAS Type GTM-MJ01B

@@ -8,7 +8,7 @@ export default function BeritaDetail() {
     1: {
       title: "PT Maju Lancar Barokah Luncurkan Mesin Rotary Mixer Terbaru",
       date: "20 Oktober 2025",
-      image: "/images/Mesin-Rotary-Mixer.jpg",
+      image: `${import.meta.env.BASE_URL}images/Mesin-Rotary-Mixer.jpg`,
       content: `
 PT Maju Lancar Barokah kembali menghadirkan inovasi terbaru dalam dunia mesin industri, yaitu **Mesin Rotary Mixer Generasi 2025**. Produk ini dirancang dengan sistem rotasi efisien dan teknologi inverter yang mampu menghemat energi hingga 15%.
 
@@ -25,7 +25,7 @@ Peluncuran resmi dilakukan di pabrik utama Bogor dan dihadiri oleh mitra bisnis 
     2: {
       title: "Inovasi Teknologi Mesin Pertanian Ramah Lingkungan",
       date: "10 September 2025",
-      image: "/images/Q1.jpg",
+      image: `${import.meta.env.BASE_URL}images/Q1.jpg`,
       content: `
 PT Maju Lancar Barokah terus berkomitmen menghadirkan solusi pertanian yang ramah lingkungan. Melalui riset intensif, perusahaan berhasil menciptakan sistem pencampuran berbasis tenaga rendah namun hasil tetap maksimal.
 
@@ -34,7 +34,7 @@ Inovasi ini merupakan langkah nyata mendukung *green technology* di sektor perta
     3: {
       title: "Kerjasama Strategis dengan BUMN dalam Produksi Mesin Konstruksi",
       date: "15 Agustus 2025",
-      image: "/images/Q2.jpg",
+      image: `${import.meta.env.BASE_URL}images/Q2.jpg`,
       content: `
 Dalam rangka memperkuat industri manufaktur dalam negeri, PT Maju Lancar Barokah resmi menandatangani kerjasama strategis dengan salah satu BUMN untuk memproduksi mesin konstruksi berskala besar.
 

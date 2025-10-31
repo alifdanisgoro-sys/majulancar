@@ -33,7 +33,8 @@ export default function App() {
           <Route path="/galeri" element={<Galeri />} />
             <Route path="/galeri/:id" element={<GaleriDetail />} />
           <Route path="/kontak" element={<Kontak />} />
-        </Routes>
+        </Routes>        
+            />
       </div>
     </>
   )

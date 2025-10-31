@@ -11,7 +11,7 @@ export default function Mesinpertaniandetail() {
       id: 1,
       name: "Mesin Rotary Mixer",
       category: "Mesin Industri",
-      image: "/images/Mesin-Rotary-Mixer.jpg",
+      image: `${import.meta.env.BASE_URL}images/Mesin-Rotary-Mixer.jpg`,
       description: `
 Mesin rotary mixer adalah peralatan industri yang dirancang untuk mencampur berbagai jenis material, umumnya berbentuk bubuk, butiran (granul), atau padatan kering, secara merata (homogen) melalui sistem rotasi drum atau tabung pencampur.
 
@@ -51,7 +51,7 @@ Gunakan Mesin Rotary Mixer berkualitas tinggi ini untuk memaksimalkan hasil prod
       id: 2,
       name: "Mesin Mixer Clay",
       category: "Mesin Pertanian",
-      image: "/images/Mesin-Mixer-Clay.jpg",
+      image: `${import.meta.env.BASE_URL}images/Mesin-Mixer-Clay.jpg`,
       description: `
 Mesin mixer clay adalah alat mekanis yang berfungsi untuk mengolah tanah liat dengan cara mencampur material tanah liat bersama air atau bahan aditif lainnya. Proses ini membuat tekstur clay menjadi lebih lentur, homogen, dan mudah dibentuk, sekaligus menghilangkan gelembung udara yang bisa mengganggu kualitas produk.
 Spesifikasi Mesin Mixer Clay (Plant) — Type Double Mixer
@@ -87,7 +87,7 @@ Mesin Mixer Clay Type Double Mixer adalah pilihan yang tepat untuk meningkatkan 
       id: 3,
       name: "Mesin Wood Chipper Plant",
       category: "Mesin Pertanian",
-      image: "/images/Mesin-Hydrodan-Wood-Chipper.jpg",
+      image: `${import.meta.env.BASE_URL}images/Mesin-Hydrodan-Wood-Chipper.jpg`,
       description: `
 Mesin Wood Chipper Plant merupakan alat yang digunakan untuk memotong atau mencacah kayu menjadi serpihan-serpihan (wood-chips). Mesin ini sering digunakan dalam industri kehutanan, pertanian, dan pengelolaan limbah kayu. Fungsi Mesin Wood Chipper Plant adalah untuk mengubah potongan kayu besar, ranting, dan sisa-sisa kayu lainnya menjadi serpihan kecil. Serpihan ini dapat digunakan sebagai bahan bakar biomassa, mulsa untuk pertanian, atau bahan baku untuk industri pulp dan kertas.
 Mesin ini biasanya dirancang dengan berbagai kapasitas sesuai kebutuhan pengguna, dari kapasitas kecl untuk penggunaan domestik hingga kapasitas besar untuk kebutuhan industri. Mesin ini bekerja dengan mekanisme pemotong yang dapat berupa pisau tajam atau drum chipper. Material kayu dimasukkan ke dalam mesin, dimana pisau-pisau tajam memotongnya menjadi serpihan kecil.
@@ -99,7 +99,7 @@ Mesin Wood Chipper Plant dapat digerakkan oleh berbagai sumber tenaga, termasuk 
       id: 4,
       name: "Mesin Pengayak Getar",
       category: "Mesin Pertanian",
-      image: "/images/Mesin-Pengayak-Tipe-Getar.jpg",
+      image: `${import.meta.env.BASE_URL}images/Mesin-Pengayak-Tipe-Getar.jpg`,
       description: `
 Mesin Pengayak Getar atau mesin sortasi berfungsi untuk memilah ukuran dari produk yang akan diproduksi, mesin pengayak tipe getar ini bisa digunakan untuk mengayak aneka pupuk organik, pupuk butiran maupun komoditi lain yang sejenis seperti mengayak pasir, tepung. Untuk ukuran mesh dan jumlah mesh dapat disesuaikan dengan kebutuhan konsumen.
 Spesifikasi :
@@ -118,7 +118,7 @@ Spesifikasi :
       id: 5,
       name: "Mesin Hydroseeding",
       category: "Mesin Pertanian",
-      image: "/images/Mesin-Hydroseeding-2.jpg",
+      image: `${import.meta.env.BASE_URL}images/Mesin-Pengayak-Tipe-Getar.jpg`,
       description: `
 Mesin Hydroseeding atau Mesin Penebar Benih Rumput digunakan untuk menyebar bibit rumput dalam reklamasi lahan bekas pertambangan.Mesin ini mampu menyemprokan bibit dan media yang telah dicampurkan dengan air dengan jangkauan yang cukup jauh hingga 50-70 meter.Dengan Mesin Hydroseeding anda dapat menghemat cost karena membutuhkan tenaga pengoperasi yang lebih sedikit dan mampu mengerjakan cakupan lahan yang luas dengan waktu yang cepat.
 
@@ -197,7 +197,7 @@ Tracking treed 4 Wheels
       id: 6,
       name: "Germinator Benih",
       category: "Mesin Pertanian",
-      image: "/images/Germinator-Benih-atau-Seed-Germinator-2.jpg",
+      image: `${import.meta.env.BASE_URL}images/Germinator-Benih-atau-Seed-Germinator-2.jpg`,
       description: `
 Germinator Benih atau Seed Germinator ini memiliki beberapa type diantaranya Germinator Elektrik dan Germinator Non Elektrik. Germinator Benih atau Seed Germinator adalah alat peraga untuk melihat dan mengetahui perkembangan dan pertumbuhan suatu benih, perkecambahan biji, penanaman benih, dan histocyte dan mikroba.
 Spesifikasi Germinator 72-1:
@@ -238,7 +238,7 @@ Spesifikasi Germinator 73-2A/B:
       id: 7,
       name: "Mesin Pemeras Santan Kelapa",
       category: "Mesin Pertanian",
-      image: "/images/Mesin-Pemeras-Santan-Kelapa-2.jpg",
+      image: `${import.meta.env.BASE_URL}images/Mesin-Pemeras-Santan-Kelapa-2.jpg`,
       description: `
 Mesin Pemeras Santan Kelapa berfungsi untuk mengepress kelapa yang telah diparut untuk memisahkan santan kelapa dari ampasnya. Mesin pemeras santan ini biasanya digunakan dalam industri-industri seperti pengolahan makanan, industry farmasi, industry pengolahan minyak kelapa dan yang lainnya.
 Spesifikasi :
@@ -263,7 +263,7 @@ Spesifikasi :
       id: 8,
       name: "Alat Perebah Sapi",
       category: "Mesin Pertanian",
-      image: "/images/Alat-Perebah-Sapi-Restraining-Box-2-300x225.jpg",
+      image: `${import.meta.env.BASE_URL}images/Alat-Perebah-Sapi-Restraining-Box-2-300x225.jpg`,
       description: `
 Alat perebah sapi atau Restraining Box merupakan alat yang berfungsi untuk membantu merebahkan sapi dari posisi berdiri untuk memudahkan proses pemotongan. Alat ini biasanya digunakan di Rumah Pemotongan Hewan (RPH).
 Dengan menggunakan alat ini maka sapi akan lebih mudah dikendalikan sehingga dapat mencegah terjadinya kecelakaan karena tendangan maupun tandukan hewan terhadap juru potong maupun pekerja lainnya.
@@ -311,7 +311,7 @@ Spesifikasi :
       id: 9,
       name: "Kandang Jepit Otomatis",
       category: "Mesin Pertanian",
-      image: "/images/Kandang-Jepit-Otomatis-Restraining-Cage.jpg",
+      image: `${import.meta.env.BASE_URL}images/Kandang-Jepit-Otomatis-Restraining-Cage.jpg`,
       description: `
 Kandang Jepit Otomatis atau Restraining Cage adalah alat yang digunakan untuk melindungi penyembelih terhadap perlawanan ternaik itu saat akan disembelih. Alat ini juga mampu mengurangi rasa sakit pada hewan ternak.
 Cara kerjanya adalah dengan menggiring ternak ke kandang jepit yang nantinya akan dijepit sesuai ukuran (untuk tidak membuat ternak kesakitan). Lalu alat penjepit ternak itu akan dibalik 180 derajat dan ternak siap untuk disembelih tanpa khawatir ternak itu akan melawan atau meronta-ronta.Lalu, ternak itu ditampung pada tempat khusus, sehingga bersih karena tidak tersentuh tanah atau lainnya.

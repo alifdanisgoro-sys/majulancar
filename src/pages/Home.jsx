@@ -7,13 +7,17 @@ export default function Home() {
   const [current, setCurrent] = useState(0)
   const [selected, setSelected] = useState(null)
   const [visibleSections, setVisibleSections] = useState({})
-
-  const images = ["/images/W1.jpg", "/images/W2.jpg", "/images/W3.jpg", "/images/W4.jpg", "/images/W5.jpg"]
-
+ const images = [
+  `${import.meta.env.BASE_URL}images/W1.jpg`,
+  `${import.meta.env.BASE_URL}images/W2.jpg`,
+  `${import.meta.env.BASE_URL}images/W3.jpg`,
+  `${import.meta.env.BASE_URL}images/W4.jpg`,
+  `${import.meta.env.BASE_URL}images/W5.jpg`,
+];
   useEffect(() => {
     const timer = setInterval(() => {
       setCurrent((prev) => (prev + 1) % images.length)
-    }, 3500)
+    }, 4000)
     return () => clearInterval(timer)
   }, [images.length])
 
@@ -49,25 +53,25 @@ export default function Home() {
     {
       id: 1,
       name: "Mesin Rotary Mixer",
-      image: "/images/Mesin-Rotary-Mixer.jpg",
+      image: `${import.meta.env.BASE_URL}images/Mesin-Rotary-Mixer.jpg`,
       desc: "Mesin industri untuk mencampur bahan padat dan cair dengan sistem rotasi drum.",
     },
     {
       id: 2,
       name: "Mesin Mixer Clay",
-      image: "/images/Mesin-Mixer-Clay.jpg",
+      image: `${import.meta.env.BASE_URL}images/Mesin-Mixer-Clay.jpg`,
       desc: "Dirancang untuk mencampur tanah liat agar homogen, cocok untuk industri bata dan keramik.",
     },
     {
       id: 3,
       name: "Mesin Pengayak Getar",
-      image: "/images/Mesin-Pengayak-Tipe-Getar.jpg",
+      image: `${import.meta.env.BASE_URL}images/Mesin-Pengayak-Tipe-Getar.jpg`,
       desc: "Memisahkan ukuran partikel bahan seperti pupuk, tepung, atau pasir halus.",
     },
     {
       id: 4,
       name: "Mesin Hydroseeding",
-      image: "/images/Mesin-Hydroseeding-2.jpg",
+      image: `${import.meta.env.BASE_URL}images/Mesin-Hydroseeding-2.jpg`,
       desc: "Alat penyemprot benih rumput untuk reklamasi lahan dan penghijauan cepat.",
     },
   ]
